@@ -1,0 +1,247 @@
+html{
+    background-color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.home_search{
+    background-color: #1a1a1a;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: bold;
+}
+.home_search:hover{
+    color: white;
+}
+.home{
+    display: flex;
+}
+.home:hover{
+    background-color:#4C4C4C;
+    border-radius: 10px;
+}
+.home_logo{
+    width: 6%;
+    height: 6%;
+    padding-top: 6%;
+    padding-left: 6%;
+
+}
+.home_text{
+    padding-left: 5%;
+}
+.search{
+    display: flex;
+    margin-top: 0;
+}
+.search:hover{
+    background-color: #4C4C4C;
+    border-radius: 10px;
+}
+.search_logo{
+    width: 6%;
+    height: 6%;
+    padding-top: 6%;
+    padding-left: 6%;
+}
+.search_text{
+    padding-left: 5%;
+}
+.playlists{
+    background-color:#1a1a1a;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 8px;
+}
+.Library_div{
+    display: flex;
+}
+.Library_logo{
+    width: 6%;
+    height: 6%;
+    padding-top: 6%;
+    padding-left: 6%;
+}
+.Library_text{
+    padding-left: 6%;
+}
+.plus_logo{
+    width: 6%;
+    height: 6%;
+    padding-top: 6%;
+    padding-left:7%;
+}
+.right_logo{
+    width: 6%;
+    height: 6%;
+    padding-top: 6%;
+    padding-left: 7%;
+}
+.playlist{
+    background-color: #4C4C4C;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 5%;
+}
+.playlist_text{
+    color: aliceblue;
+    text-align: center;
+}
+.list_on_div{
+    display:flex;
+    justify-content: space-around;
+}
+.list_img{
+    width: 8%;
+    height: 8%;
+}
+.list_on_text{
+    color: aliceblue;
+    font-size: 20%;
+}
+.playlist_1{
+    display:flex;
+    border-radius: 10px;
+}
+.playlist_icon{
+    width: 20%;
+    height: 20%;
+    padding-top: 5%;
+    padding-left: 5%;
+    border-radius: 10%;
+}
+.playlist_1_text{
+    margin-left: 10%;
+}
+.playlists_text{
+    font-size: 70%;
+}
+.playlist_1:hover{
+    background-color: #4C4C4C;
+
+}
+
+.center_div{
+    background-color:#4C4C4C;
+}
+#left{
+    width: 20vw;
+    margin: 5px ;
+}
+#center{
+    width: 80vw;
+    background-color: #1a1a1a;
+    margin: 5px;
+    margin-left: 0;
+    border-radius: 10px;
+}
+#wrapper{
+    display: flex;
+}
+.center_top{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+/*縦幅　vh*/
+/*横幅　vw*/
+.history::before{
+    display: block;
+    font-size: 30px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+/*ビスケットがサクサクでちょっと硬めで、
+チョコが甘すぎず、コク、風味があって美味しかった*/
+.premium_div{
+    background-color: aliceblue;
+    border-radius: 20px;
+    height: 25px;
+    font-size: 70%;
+    transition: all .3s ;
+    font-weight: bold;
+    margin-top: 18px;
+    padding-top: 6px;
+}
+.premium_div:hover{
+    transform: scale(1.1);
+}
+.hysteric::before{
+    font-size: 20px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.center_topright{
+    display: flex;
+    margin-left: 65%;
+}
+.hysteric{
+    background-color: #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 18px;
+    margin-left: 20px; 
+}
+.center_fifa{
+    width: 95%;
+}
+.center_middle{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.center_title{
+    color:aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+.center_under{
+    display: flex;
+    justify-content: space-around;
+}
+.hitchart_img{
+    width: 12vw;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 45%;
+    left: 50%;
+}
+.hitchart_title{
+    color:aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+.hitchart_title:hover{
+    text-decoration: underline;
+}
+.hitchart:hover{
+    background-color: #333;
+}
+.hitchart{
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    background-color: #292929;
+    border-radius: 10px;
+}
+.hitchart_text{
+    color: aliceblue;
+    font-size: large;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 85%;
+    left: 50%;
+}
