@@ -245,3 +245,14 @@ body{
     top: 85%;
     left: 50%;
 }
+.under_div{
+    background: #292929;
+    width: 80vw;
+    margin-left: 20vw;
+    border-radius: 10px;
+
+}
+audio{
+    margin-left: 25vw;
+    background-color: #292929;
+}
