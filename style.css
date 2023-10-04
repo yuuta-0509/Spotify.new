@@ -10,7 +10,7 @@ body{
     color: aliceblue;
     border-radius: 10px;
     width: 100%;
-    height: 112;
+    height: 15%;
     font-weight: bold;
 }
 .home_search:hover{
@@ -55,6 +55,7 @@ body{
     color: aliceblue;
     border-radius: 10px;
     width: 100%;
+    height: 85vh;
     margin-top: 8px;
     overflow: scroll;
 }
