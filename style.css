@@ -143,7 +143,6 @@ body{
     margin-bottom: 0;
     border-radius: 10px;
     height: 100vh;
-    overflow: scroll;
 }
 #wrapper{
     display: flex;
@@ -252,12 +251,14 @@ body{
 }
 .under_div{
     background: #292929;
-    width: 80vw;
-    margin-left: 20vw;
+    margin-top: 10vh;
     border-radius: 10px;
 
 }
 audio{
     margin-left: 25vw;
     background-color: #292929;
+}
+.center_scroll{
+    overflow: scroll;
 }
