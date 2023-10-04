@@ -131,6 +131,7 @@ body{
 #left{
     width: 20vw;
     margin: 5px ;
+    height: 90vh;
 }
 #center{
     width: 80vw;
@@ -138,6 +139,8 @@ body{
     margin: 5px;
     margin-left: 0;
     border-radius: 10px;
+    height: 90vh;
+    overflow: scroll;
 }
 #wrapper{
     display: flex;
